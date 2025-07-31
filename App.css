@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(135deg, #f3f5f9, #dbe9f4);
+}
+
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.filter-button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: normal;
+  background-color: #f0f0f0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.filter-button.active {
+  font-weight: bold;
+  background-color: #4caf50;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
